@@ -1,3 +1,7 @@
+`npm install -g gatsby-cli`
+
+`npm install`
+
 # gatsby-starter-blog
 Gatsby starter for creating a blog
 
