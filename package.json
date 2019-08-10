@@ -51,8 +51,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
-    "forestry:preview": "npm run dev",
+    "dev": "gatsby develop --open",
+    "forestry:preview": "gatsby develop --port 8080 --host 0.0.0.0",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
