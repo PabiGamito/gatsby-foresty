@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: document
   path: src/pages/hello-world.md
@@ -16,6 +16,6 @@ build:
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
-  mount_path: "/srv"
-  working_dir: "/srv"
   instant_preview_command: npm run forestry:preview
+  preview_command: npm run forestry:preview
+  preview_output_directory: dist
